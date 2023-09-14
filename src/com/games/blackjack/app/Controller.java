@@ -13,6 +13,10 @@ public class Controller {
         int numPlayers = promptForNumPlayers();
         promptForPlayerNames();
         //dealer.delCards();
+        scoreAllHands();
+    }
+
+    private void scoreAllHands() {
     }
 
     private void promptForPlayerNames() {
